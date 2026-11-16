@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "packages": {
+    "hugo": "0.169.0"
+  },
+  "steps": {
+    "build": {
+      "commands": ["hugo --minify"]
+    }
+  }
+}
