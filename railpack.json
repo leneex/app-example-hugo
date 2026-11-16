@@ -5,7 +5,10 @@
   },
   "steps": {
     "build": {
-      "commands": ["hugo --minify"]
+      "commands": [
+        { "src": ".", "dest": "." },
+        "hugo --minify"
+      ]
     }
   }
 }
